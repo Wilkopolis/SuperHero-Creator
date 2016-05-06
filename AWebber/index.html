@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"> 
+	<!-- CSS   -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Foreign Includes  -->
+	<script src="jquery-1.12.3.min.js"></script>
+	<script src="jquery.easing.js"></script>
+
+	<!-- Page Title  -->
+	<title>SuperHero Manager 2016</title>
+
+	<!-- Call on page load  -->
+	<script src="buttonFunctions.js"></script>
+</head>
+<body>
+	<div id="pageDiv">
+		<!-- Landing 'Page'  -->
+		<span id="superHeroesTitleSpan">Super Heros</span> 
+		<div id="superheroContainerDiv"></div> 
+		<button id="newHeroButton" onClick="onNewHeroClick()"> 
+			<span>new</span> 
+		</button> 
+		<button id="mergeHeroesButton" onClick="onMergeHeroesClick()" disabled="true"> 
+			<span>merge</span> 
+		</button> 
+		<!-- New Hero 'Page' -->
+		<span id="newHeroTitleSpan">New Hero</span> 
+		<span id="newNameSpan">Hero Name</span>
+		<form id="newNameForm" onsubmit="return submitHandler()" action="">
+			<input id="newNameInput" type="text" value="Hero Name">
+		</form>
+		<span id="newAlterEgoSpan">Alter Ego</span>
+		<form id="newAlterEgoForm" onsubmit="return submitHandler()" action="">
+			<input id="newAlterEgoInput" type="text" value="Real Name">
+		</form> 
+		<form id="newGenderForm" action="">
+  			<input type="radio" name="gender" value="male" checked> Male<br>
+  			<input type="radio" name="gender" value="female"> Female<br>
+		</form>
+		<span id="newAttributesSpan">Attributes</span> 
+		<span id="intelligenceSpan">Intelligence</span> 
+		<form id="intelligenceForm" onsubmit="return submitHandler()" action="">
+			<input id="intelligenceInput" type="number" value=1>
+		</form>
+		<span id="strengthSpan">Strength</span>
+		<form id="strengthForm" onsubmit="return submitHandler()" action="">
+			<input id="strengthInput" type="number" value=1>
+		</form>
+		<span id="speedSpan">Speed</span>
+		<form id="speedForm" onsubmit="return submitHandler()" action="">
+			<input id="speedInput" type="number" value=1>
+		</form>
+		<span id="durabilitySpan">Durability</span>
+		<form id="durabilityForm" onsubmit="return submitHandler()" action="">
+			<input id="durabilityInput" type="number" value=1>
+		</form>
+		<span id="powerSpan">Power</span>
+		<form id="powerForm" onsubmit="return submitHandler()" action="">
+			<input id="powerInput" type="number" value=1>
+		</form>
+		<span id="combatSpan">Combat</span>
+		<form id="combatForm" onsubmit="return submitHandler()" action="">
+			<input id="combatInput" type="number" value=1>
+		</form> 
+		<span id="newPowersSpan">Powers</span>
+		<span id="newWeaknessesSpan">Weaknesses</span>
+		<div id="newPowersDiv"></div>
+		<div id="newWeaknessesDiv"></div> 
+		<form id="superCharacteristicForm" onsubmit="return submitHandler()" action="">
+			<input id="superCharacteristicInput" type="text">
+		</form> 
+		<button id="newPowerButton" onClick="onNewPowerClick()">
+			<span>Power</span>
+		</button>
+		<button id="newWeaknessButton" onClick="onNewWeaknessClick()">
+			<span>Weakness</span>
+		</button> 
+		<button id="newHeroSubmitButton" onClick="onNewHeroSubmitClick()">
+			<span>Submit</span>
+		</button>
+		<button id="newBackButton" onClick="onBackClick()">
+			<span>cancel</span>
+		</button> 
+		<!-- Merge Hero 'Page' -->
+		<span id="mergeHeroesTitleSpan">Merge Heroes</span> 
+		<span id="mergeHeroesNameSpan">Hero Name</span> 
+		<form id="mergeHeroesNameForm" onsubmit="return submitHandler()" action="">
+			<input id="mergeHeroesNameInput" type="text">
+		</form> 
+		<span id="mergeHeroesAlterEgoSpan">Alter Ego</span>
+		<form id="mergeHeroesAlterEgoForm" onsubmit="return submitHandler()" action="">
+			<input id="mergeHeroesAlterEgoInput" type="text">
+		</form>		 
+		<span id="mergeHeroesAttributesSpan">Attributes</span> 
+		<div id="mergeHeroesAttributesOneDiv"></div>
+		<div id="mergeHeroesAttributesTwoDiv"></div>
+		<span id="mergeHeroesPowersSpan">Powers</span>
+		<span id="mergeHeroesPowersOneSpan">Batman's Powers</span>
+		<div id="mergeHeroesPowersOneDiv"></div>
+		<span id="mergeHeroesPowersTwoSpan">SuperMan's Powers</span>
+		<div id="mergeHeroesPowersTwoDiv"></div>
+		<span id="mergeHeroesWeaknessesSpan">Weaknesses</span>
+		<div id="mergeHeroesWeaknessesDiv"></div>
+		<button id="mergeHeroesSubmitButton" onClick="onMergeHeroesSubmitClick()">
+			<span>Submit</span>
+		</button> 
+		<button id="mergeHeroesBackButton" onClick="onBackClick()">
+			<span>cancel</span>
+		</button> 
+	</div>
+</body>
+</html>

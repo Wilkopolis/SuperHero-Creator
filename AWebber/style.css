@@ -1,0 +1,301 @@
+body {
+	margin-top:0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left:0px;
+
+	overflow: hidden;
+}
+
+#pageDiv {
+	background: #ff9966;
+
+	position: absolute;
+	width: 100%; height: 300%;
+}
+
+/*Landing Page*/
+
+#superHeroesTitleSpan {	
+	position: absolute;
+	left: 10%; top: 2%;
+}
+
+#superheroContainerDiv {
+	background: #352343;
+
+	position: absolute;
+	left: 10%; top: 4%;
+	width: 80%; height: 23%;
+
+	overflow-x: hidden;
+}
+
+#newHeroButton {
+	position: absolute;
+	left: 40%; top: 28%;
+}
+
+#mergeHeroesButton {
+	position: absolute;
+	left: 50%; top: 28%;
+}
+
+/*New Heros Page*/
+
+#newHeroTitleSpan {	
+	position: absolute;
+	left: 10%; top: 35%;
+}
+
+#newNameSpan {	
+	position: absolute;
+	left: 37%; top: 38%;
+}
+
+#newNameInput {	
+	position: absolute;
+	left: 37%; top: 38.5%;
+}
+
+#newAlterEgoSpan {	
+	position: absolute;
+	left: 47%; top: 38%;
+}
+
+#newAlterEgoInput {
+	position: absolute;
+	left: 47%; top: 38.5%;
+}
+
+#newAttributesSpan {
+	position: absolute;
+	left: 45%; top: 42%; 
+}
+
+#newGenderForm { 
+	position: absolute;
+	left: 57%; top: 38.2%; 	
+}
+
+#intelligenceSpan {
+	position: absolute;
+    left: 42%; top: 43%;
+}
+#intelligenceInput {
+	position: absolute;
+    left: 50%; top: 43%;
+}
+
+#strengthSpan {
+	position: absolute;
+    left: 42%; top: 44%;
+}
+#strengthInput {
+	position: absolute;
+    left: 50%; top: 44%;
+}
+
+#speedSpan {
+	position: absolute;
+    left: 42%; top: 45%;
+}
+#speedInput {
+	position: absolute;
+    left: 50%; top: 45%;
+}
+
+#durabilitySpan {
+	position: absolute;
+    left: 42%; top: 46%;
+}
+#durabilityInput {
+	position: absolute;
+    left: 50%; top: 46%;
+}
+
+#powerSpan {
+	position: absolute;
+    left: 42%; top: 47%;
+}
+#powerInput {
+	position: absolute;
+    left: 50%; top: 47%;
+}
+
+#combatSpan {
+	position: absolute;
+    left: 42%; top: 48%;
+}
+#combatInput {
+	position: absolute;
+    left: 50%; top: 48%;
+}
+
+#newPowersSpan {
+	position: absolute;
+    left: 30%; top: 51%;
+}
+#newWeaknessesSpan {
+	position: absolute;
+    left: 62%; top: 51%;
+}
+
+#newPowersDiv {
+	background: #352343;
+	position: absolute;
+    left: 22%; top: 52%;
+	width: 15%; height: 10%;
+}
+
+#newWeaknessesDiv {
+	background: #352343;
+	position: absolute;
+    left: 61%; top: 52%;
+	width: 15%; height: 10%;
+}
+
+#superCharacteristicInput {
+	position: absolute;
+    left: 43.5%; top: 52%;
+}
+
+#newPowerButton {
+	position: absolute;
+	left: 39%; top: 52%;	
+}
+#newWeaknessButton {
+	position: absolute;
+	left: 54%; top: 52%;	
+}
+
+#newHeroSubmitButton {
+	position: absolute;
+	left: 43%; top: 58%;	
+}
+
+#newBackButton {
+	position: absolute;
+	left: 50%; top: 58%;	
+}
+
+/*Merge Heroes Page*/
+
+#mergeHeroesTitleSpan {
+	position: absolute;
+	left: 10%; top: 68%;
+}
+
+#mergeHeroesNameSpan {
+	position: absolute;
+	left: 37%; top: 70%;
+}
+
+#mergeHeroesNameInput {
+	position: absolute;
+	left: 37%; top: 71%;
+}
+
+#mergeHeroesAlterEgoSpan {
+	position: absolute;
+	left: 47%; top: 70%;
+}
+
+#mergeHeroesAlterEgoInput {
+	position: absolute;
+	left: 47%; top: 71%;
+}
+
+#mergeHeroesAttributesSpan {
+	position: absolute;
+	left: 46%; top: 73%;
+}
+
+#mergeHeroesPowersSpan {
+	position: absolute;
+	left: 46%; top: 80%;
+}
+
+#mergeHeroesPowersOneSpan {
+	position: absolute;
+	left: 30%; top: 81%;
+}
+
+#mergeHeroesAttributesOneDiv {
+	background: #352343;
+	position: absolute;
+	left: 30%; top: 74%;
+	width: 15%; height: 5%;
+}
+
+#mergeHeroesAttributesTwoDiv {
+	background: #352343;
+	position: absolute;
+	left: 51%; top: 74%;
+	width: 15%; height: 5%;
+}
+
+#mergeHeroesPowersOneDiv {
+	background: #352343;
+	position: absolute;
+	left: 30%; top: 82%;
+	width: 15%; height: 5%;
+}
+
+#mergeHeroesPowersTwoSpan {
+	position: absolute;
+	left: 54%; top: 81%;
+}
+
+#mergeHeroesPowersTwoDiv {
+	background: #352343;
+	position: absolute;
+	left: 51%; top: 82%;
+	width: 15%; height: 5%;
+}
+
+#mergeHeroesWeaknessesSpan {
+	position: absolute;
+	left: 45.5%; top: 88%;
+}
+
+#mergeHeroesWeaknessesDiv {
+	background: #352343;
+	position: absolute;
+	left: 32%; top: 89%;
+	width: 30%; height: 4%;
+}
+
+#mergeHeroesSubmitButton {
+	position: absolute;
+	left: 43%; top: 96%;	
+}
+
+#mergeHeroesBackButton {
+	position: absolute;
+	left: 50%; top: 96%;
+}
+
+/*Classes*/
+
+.superHeroDiv {
+	color:#ffffff;
+	position: absolute;
+	width: 24%; height: 40%;
+	transition: background .1s;
+}
+
+.superHeroNameSpan {
+	position: absolute;
+	left: 24%; top: 40%;
+}
+
+.selected {
+	background: #c2abd3;
+}
+
+.characterisitc {
+	position: relative;
+	width: 100%;
+	height: 60px;
+}

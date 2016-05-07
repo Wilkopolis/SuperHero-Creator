@@ -3,10 +3,13 @@ create your own super hero and upload it to super hero server thing
 
  * [How to run](#how-to-run)
  * [Development Notes](#development-notes)
+ * [Implementation Start](#implementation-start)
+ * [Possible Features](#possible-features)
+ * [After Thoughts](#after-thoughts)
 
 # How to run
 
-When you first launch the app you should be taken to the Super Heroes screen that displays all the super heroes that belong to your api key. From this page you can choose to create a new hero or merge two existing heroes. To create a new hero click on the 'new' button. To merge two heroes, first select 2 heroes and then the 'merge' button should become available. From either the New Hero or Merge Heroes screen, you can click the 'cancel' button to be taken back to the Super Heroes screen at any time. 
+When you first launch the app you should be taken to the Super Heroes screen that displays all the super heroes that belong to your api key (you may have to edit the apiKey variable in the script if the current api key has expired). From this page you can choose to create a new hero or merge two existing heroes. To create a new hero click on the 'new' button. To merge two heroes, first select 2 heroes and then the 'merge' button should become available. From either the New Hero or Merge Heroes screen, you can click the 'cancel' button to be taken back to the Super Heroes screen at any time. 
 
 On the New Heroes screen, you can fill out the attributes and qualities of your new super hero. To add a power or a weakness, type the power/weakness into the 'Super Characteristic' box and click either the 'Power' or 'Weakness' button. After you fill out all the fields, click submit to add a new hero to your account(apikey). To see your new hero after you have added him or her, click the cancel to be taken back to the Super Heroes screen or simply refresh.
 
@@ -64,6 +67,8 @@ I think for effort spent I will get the most out of this choice. Additionally HT
 Plan of Attack:
 My plan hasn't changed much since earlier. Through a thin html page use javascript to get/post/patch heros with the api. After each of the api pieces works, start working on the ui elements. After the ui elements are laid out, start linking the basic functionality to them. After the basic functionality is in, finish the whole thing out. Then test/polish. Platforms I have readily available are Windows/Chrome, Windows/Firefox, Ubuntu/Firefox, and Android/Chrome.
 
+#Implementation Start
+
 ---
 
 I've now started with some basic HTML/JS to get the api interaction down.
@@ -87,6 +92,8 @@ I am spending a lot of time placing/spacing the ui elements. More than I anticip
 For ease of use and security I'm going to limit all the forms on the page to 50 character alphanumerics.
 
 A conflict due to the nature of the data types are duplicate powers/weaknesses when merging heroes. The weaknesses should be easy enough, just don't show duplicates. For powers, this may be an issue I would revisit if I had more time-for now I'll just show duplicates.
+
+#Possible Features
 
 ---
 
@@ -119,6 +126,8 @@ console client - another way I could have gone about this process was developing
 	✓ Works in Firefox
 	✓ Actually Works pretty well on Mobile
 	? Ubuntu Firefox - My Ubuntu installation got corrupted, ended up not testing
+
+#After Thoughts
 
 --- I included some development screenshots in the screenshot directory
 

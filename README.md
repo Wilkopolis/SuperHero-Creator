@@ -1,8 +1,8 @@
 # SuperHero-Creator
 create your own super hero and upload it to super hero server thing
 
- * [How to run](#How-to-run)
- * [Development Notes](#Development-Notes)
+ * [How to run](#how-to-run)
+ * [Development Notes](#development-notes)
 
 # How to run
 

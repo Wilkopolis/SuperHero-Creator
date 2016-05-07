@@ -8,7 +8,7 @@
 // 	});
 // }
 
-var apiKey = '5cbccbe9';
+var apiKey = '4f49481b';
 var urlBase = 'https://hero-merge.herokuapp.com/' + apiKey + '/heroes';
 
 window.onload = function() {

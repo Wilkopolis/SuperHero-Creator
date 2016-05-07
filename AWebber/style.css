@@ -155,6 +155,11 @@ body {
 	width: 15%; height: 10%;
 }
 
+#superCharacteristicSpan {
+	position: absolute;
+    left: 44%; top: 51.2%;
+}
+
 #superCharacteristicInput {
 	position: absolute;
     left: 43.5%; top: 52%;
@@ -206,6 +211,11 @@ body {
 	left: 47%; top: 71%;
 }
 
+#mergeHeroesGenderForm { 
+	position: absolute;
+	left: 57%; top: 71%; 	
+}
+
 #mergeHeroesAttributesSpan {
 	position: absolute;
 	left: 46%; top: 73%;
@@ -218,7 +228,7 @@ body {
 
 #mergeHeroesPowersOneSpan {
 	position: absolute;
-	left: 30%; top: 81%;
+	left: 35%; top: 81%;
 }
 
 #mergeHeroesAttributesOneDiv {
@@ -244,7 +254,7 @@ body {
 
 #mergeHeroesPowersTwoSpan {
 	position: absolute;
-	left: 54%; top: 81%;
+	left: 56%; top: 81%;
 }
 
 #mergeHeroesPowersTwoDiv {

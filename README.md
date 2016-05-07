@@ -22,10 +22,15 @@ Its a client side app. My biggest question is "who is the end user?". I think th
 Data types aside it looks like there will need to be a way for the user to interface with the software. I'm going to spring for a gui because I like highly interactive software. I predict the breadth of the work is going to be the flow of combining and creating these data types (heros). It looks like the second part of the application will be getting/posting heroes with the api. I'm planning on testing the two systems independently, designing and testing the get/post api interaction part first then the ui that handles all the data type/user interface stuff. I'm tempted to do this in C# or use some graphics libraries to make it look really nice. However given time constraints and the small scale of things I'm leaning towards scripts.
 
 Plan of Attack:
+
 Step 1
+
 HTTP API Interface
+
 Make the GET work.
+
 Make the POST work.
+
 Does PATCH need to work?
 
 After spending a few minutes reading up on technologies that would fill in the gaps for this program, I've started writing some basic scripts. Hopefully something a bit more tangible will help me identify some of the nuances of this project. 

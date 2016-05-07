@@ -9,7 +9,7 @@ create your own super hero and upload it to super hero server thing
 
 # How to run
 
-When you first launch the app you should be taken to the Super Heroes screen that displays all the super heroes that belong to your api key (you may have to edit the apiKey variable in the script if the current api key has expired). From this page you can choose to create a new hero or merge two existing heroes. To create a new hero click on the 'new' button. To merge two heroes, first select 2 heroes and then the 'merge' button should become available. From either the New Hero or Merge Heroes screen, you can click the 'cancel' button to be taken back to the Super Heroes screen at any time. 
+When you first launch the app (index.html) you should be taken to the Super Heroes screen that displays all the super heroes that belong to your api key (you may have to edit the apiKey variable in the script if the current api key has expired). From this page you can choose to create a new hero or merge two existing heroes. To create a new hero click on the 'new' button. To merge two heroes, first select 2 heroes and then the 'merge' button should become available. From either the New Hero or Merge Heroes screen, you can click the 'cancel' button to be taken back to the Super Heroes screen at any time. 
 
 On the New Heroes screen, you can fill out the attributes and qualities of your new super hero. To add a power or a weakness, type the power/weakness into the 'Super Characteristic' box and click either the 'Power' or 'Weakness' button. After you fill out all the fields, click submit to add a new hero to your account(apikey). To see your new hero after you have added him or her, click the cancel to be taken back to the Super Heroes screen or simply refresh.
 
